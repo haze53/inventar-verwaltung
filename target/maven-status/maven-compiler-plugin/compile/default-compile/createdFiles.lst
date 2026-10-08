@@ -1,0 +1,7 @@
+de/hss/api/ProduktSuche.class
+de/hss/db/Database.class
+de/hss/App.class
+de/hss/ui/InventarView.class
+de/hss/api/ProduktSuche$ProduktInfo.class
+de/hss/model/InventarItem.class
+de/hss/db/InventarRepository.class

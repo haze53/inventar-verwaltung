@@ -11,10 +11,6 @@ import java.net.http.HttpResponse;
 import java.time.Duration;
 import java.util.Optional;
 
-/**
- * Kleine API-Anbindung an Open Food Facts.
- * Damit kannst du einen Barcode nachschlagen und Name/Kategorie vorausfüllen.
- */
 public class ProduktSuche {
 
     private static final String API_URL = "https://world.openfoodfacts.org/api/v2/product/%s.json";

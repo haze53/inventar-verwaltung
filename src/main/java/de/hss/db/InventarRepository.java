@@ -44,7 +44,7 @@ public class InventarRepository {
         return aktualisieren(item);
     }
 
-    public void loeschen(int id) {
+    public void löschen(int id) {
         String sql = "DELETE FROM inventar WHERE id = ?";
         try (Connection connection = database.verbinden();
              PreparedStatement statement = connection.prepareStatement(sql)) {

@@ -209,7 +209,7 @@ public class InventarView extends BorderPane {
             hinweis("Bitte zuerst einen Eintrag in der Tabelle auswählen.");
             return;
         }
-        repository.loeschen(ausgewaehlt.getId());
+        repository.löschen(ausgewaehlt.getId());
         formularLeeren();
         laden();
     }
